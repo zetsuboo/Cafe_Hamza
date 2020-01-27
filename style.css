@@ -52,6 +52,7 @@ body{
 }
 
 .centre{
+    background-attachment: fixed;
     margin: -2%;
     background-image: url(back1.jpg);
     height: 550px;
