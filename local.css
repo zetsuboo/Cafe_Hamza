@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.726);
+
+}
+
+.header{
+    
+    position: sticky;
+    background-color: black;
+    height: 50px;
+    margin: -1%;
+    color: cornsilk;
+    width: 102%;
+}
+.titre a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.titre a:visited{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+
+.titre{
+    display: inline-block;
+    font-size: x-large;
+    margin: auto;
+    float: left;
+    margin-left: 2%;
+}
+.top a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.top a:visited{
+    color: cornsilk;
+    text-decoration: none;
+}
+.top {
+    float: right;
+    margin-inline: 20px;
+}
+.top li {
+    display: inline-block;
+}
+.top a{
+    padding-inline: 7px;
+}
+
+.top *:hover{
+    background-color: gray;
+}
+
+.boite{
+    margin-top: 129px;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+.boite *{
+    display: inline-block;
+}
+
+.map iframe{
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+}
+.adress{
+    font-weight: lighter;
+}
+.trou{
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-right: 127px;
+}
+.trou2{
+    font-weight: bold;
+}
+.text p{
+    line-height: 2.5;
+    bottom: 207px;
+    position: relative;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+footer{
+    padding-top: 14px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: cornsilk;
+    margin: -1%;
+}

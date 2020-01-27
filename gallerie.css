@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.726);
+
+}
+
+.header{
+    
+    position: sticky;
+    background-color: black;
+    height: 50px;
+    margin: -1%;
+    color: cornsilk;
+    width: 102%;
+}
+.titre a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.titre a:visited{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+
+.titre{
+    display: inline-block;
+    font-size: x-large;
+    margin: auto;
+    float: left;
+    margin-left: 2%;
+}
+.top a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.top a:visited{
+    color: cornsilk;
+    text-decoration: none;
+}
+.top {
+    float: right;
+    margin-inline: 20px;
+}
+.top li {
+    display: inline-block;
+}
+.top a{
+    padding-inline: 7px;
+}
+
+.top *:hover{
+    background-color: gray;
+}
+
+.boite *{
+    height: 170px;
+    width: 192;
+}
+
+
+.boite {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+footer{
+    padding-top: 14px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: cornsilk;
+    margin: -1%;
+}
+

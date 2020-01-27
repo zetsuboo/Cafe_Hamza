@@ -1,0 +1,145 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+.header{
+    display: inline-block;
+    background-color: black;
+    height: 50px;
+    margin: -1%;
+    color: cornsilk;
+    width: 102%;
+}
+.titre a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.titre a:visited{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+
+.titre{
+    font-size: x-large;
+    margin: auto;
+    float: left;
+    margin-left: 2%;
+}
+.top a:link{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+.top a:visited{
+    text-decoration: none;
+    color: cornsilk;
+}
+.top {
+    float: right;
+    margin-inline: 20px;
+}
+.top li {
+    display: inline-block;
+}
+.top a{
+    padding-inline: 7px;
+}
+.top *:hover{
+    background-color: gray;
+}
+
+.centre{
+    margin: -2%;
+    background-image: url(back1.jpg);
+    height: 550px;
+    background-size: cover;
+    display: block;
+}
+.artcent h3{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 200px;
+    color: cornsilk;
+}
+
+.para{
+    text-align: center;
+    margin: auto;
+    color: cornsilk;
+    width: 600px;
+}
+.decouv{
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    color: black;
+    background-color: cornsilk;
+    border-radius: 10px;
+    width: 110px;
+    display: block;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    }
+.decouv:link{
+    text-decoration: none;
+    }
+
+.col{
+    width: 420px;
+    height: 250px;
+
+    }
+.deux * {
+    display: inline-block;
+}
+
+.deux{
+    padding-top: 115px;
+    text-align: center;
+
+}
+
+.imgbas{
+    margin: -2%;
+    background-image: url(cafe.jpg);
+    height: 300px;
+    background-size: cover;
+    display: block;
+    margin-block: 100px;
+}
+
+
+.resa {
+    text-align: center;
+    width: 500px;
+    margin-inline: 29%;
+    margin-block: 10%;
+}
+
+.resa a{
+    border-radius: 15px;
+    padding-block: 6px;
+    background-color: black;
+    color: cornsilk;
+    padding-inline: 17px;
+    display: inline-block;
+    
+}
+.resa a:visited{
+    
+    background-color: black;
+    color: cornsilk;
+}
+
+footer{
+    padding-top: 14px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: cornsilk;
+    margin: -1%;
+}
